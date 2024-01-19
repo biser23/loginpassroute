@@ -18,7 +18,7 @@ const session = require('express-session');
 
 // -------------------------------------------------------------------------------------
 
-//Usado?: 
+//Usado?:SI 
 const express = require('express');
 //--- Explicación:
 
@@ -60,13 +60,13 @@ dotenv.config();
 
 // -------------------------------------------------------------------------------------
 
-//Usado?: 
+//Usado?: SI
 const app = express();
 //--- Explicación:
 
 // -------------------------------------------------------------------------------------
 
-//Usado?: 
+//Usado?: SI
 const PORT = 4000;
 //--- Explicación:
 
@@ -190,7 +190,7 @@ app.use(session({
 
 // -------------------------------------------------------------------------------------
 
-//Usado?:
+//Usado?: SI
 app.listen(PORT, () => {
   console.log(`Servidor en ejecución en http://localhost:${PORT}`);
 });
