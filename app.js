@@ -17,7 +17,7 @@ app.use(session({
     saveUninitialized: true,
   }));
   
-  middlewares.setupApp(app);
+  middlewares.setupAPP(app);
   routes.setup(app);
 
 app.listen(PORT, () => {
